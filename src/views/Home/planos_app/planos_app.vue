@@ -367,7 +367,9 @@ export default defineComponent({
             </div>
             <div class="flex justify-center md:pt-6 pt-2">
               <p class="text-xl font-bold pt-3">R$</p>
-              <p class="text-4xl font-bold text-[#0168BC]">{{slotProps.data.textValor}}</p>
+              <p class="text-4xl font-bold text-[#0168BC]">
+                {{ slotProps.data.textValor }}
+              </p>
               <p class="text-xl font-bold pt-3">/mês</p>
             </div>
             <a
