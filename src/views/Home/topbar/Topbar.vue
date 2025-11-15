@@ -27,7 +27,7 @@ export default defineComponent({
   <!-- Barra de Menu-->
   <div
     id="home"
-    class="bg-[#003366] text-white py-3.5 px-6 shadow md:flex justify-between items-center top-0 left-0 w-full"
+    class="fixed top-0 left-0 w-full bg-[#003366] text-white py-3.5 px-6 shadow md:flex justify-between items-center z-50"
   >
     <!-- Img da logo com link (para trocar o link alterar a linha "router-link")-->
     <router-Link to="">

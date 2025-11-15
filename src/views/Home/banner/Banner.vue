@@ -34,13 +34,13 @@ export default defineComponent({
     :responsiveOptions="responsiveOptions"
     :numVisible="4"
     :circular="true"
-    :showItemNavigators="true"
+    :showItemNavigators="false"
     :showThumbnails="false"
     :autoPlay="true"
     :transitionInterval="5000"
   >
     <template #item="slotProps">
-      <div class="w-full">
+      <div class="w-full pt-[90px]">
         <!--para adicionar o link, basta trocar o link no href-->
         <a
           href="http://wa.me/5585981674817"
