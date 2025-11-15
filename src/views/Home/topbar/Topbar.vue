@@ -53,7 +53,7 @@ export default defineComponent({
 
     <!-- Menu Mobile-->
     <ul
-      class="bg-[#003366] md:flex md:items-center text-lg md:px-0 px-7 md:pb-0 md:static absolute md:w-auto w-[300px] duration-700 ease-in z-10"
+      class=" bg-[#003366] md:flex md:items-center text-lg md:px-0 px-7 md:pb-0 md:static absolute md:w-auto w-[300px] duration-700 ease-in z-10"
       :class="[open ? 'left-0' : 'left-[-100%]']"
     >
       <li class="md:mx-2 md:my-0 my-6" v-for="link in links">
