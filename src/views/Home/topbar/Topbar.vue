@@ -25,7 +25,8 @@ export default defineComponent({
 
 <template>
   <!-- Barra de Menu-->
-  <div id="home"
+  <div
+    id="home"
     class="bg-[#003366] text-white py-3.5 px-6 shadow md:flex justify-between items-center top-0 left-0 w-full"
   >
     <!-- Img da logo com link (para trocar o link alterar a linha "router-link")-->
@@ -63,15 +64,17 @@ export default defineComponent({
           >{{ link.name }}</router-link
         >
       </li>
-      <div class="md:hidden block flex flex-col text-center my-2">
+      <div class="md:hidden flex flex-col text-center my-2">
         <a
           class="mx-2 my-1 rounded-full bg-white px-5 py-2 text-x1 text-black hover:bg-[#ffc500] hover:rounded-full hover:px-5"
-          href="#"
+          href="http://wa.me/5585981674817"
+          target="_blank"
           >Assine Já</a
         >
         <a
           class="mx-2 my-1 rounded-full bg-white px-5 py-2 text-x1 text-black hover:bg-[#ffc500] hover:rounded-full hover:px-5"
-          href="#"
+          href="http://wa.me/5585981674817"
+          target="_blank"
           >Área do cliente</a
         >
       </div>
@@ -80,12 +83,14 @@ export default defineComponent({
       <!-- Links dos botões do menu (para trocar alterar tag href)-->
       <a
         class="mx-2 rounded-full bg-white px-5 py-2 text-x1 text-black hover:bg-[#ffc500] hover:rounded-full hover:px-5"
-        href="#"
+        href="http://wa.me/5585981674817"
+        target="_blank"
         >Assine Já</a
       >
       <a
         class="mx-2 rounded-full bg-white px-5 py-2 text-x1 text-black hover:bg-[#ffc500] hover:rounded-full hover:px-5"
-        href="#"
+        href="http://wa.me/5585981674817"
+        target="_blank"
         >Área do cliente</a
       >
     </div>
