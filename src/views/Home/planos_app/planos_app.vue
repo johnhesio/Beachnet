@@ -1,8 +1,5 @@
 <script>
 import Carousel from "primevue/carousel";
-import image1 from "../../../assets/Images/looke.webp";
-import image2 from "../../../assets/Images/deezer.svg";
-import image3 from "../../../assets/Images/max.webp";
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "app",
@@ -12,24 +9,18 @@ export default defineComponent({
       {
         textNomePlano: "PLANO PÉ NA AREIA",
         textMegaPlano: "100MEGA",
-        imageApp: image1,
-        imageAlt: "Looker App",
         textApp: "App incluso",
         textValor: "79,90",
       },
       {
         textNomePlano: "PLANO TÁ DANDO ONDA",
         textMegaPlano: "300MEGA",
-        imageApp: image2,
-        imageAlt: "Looker App",
         textApp: "App incluso",
         textValor: "109,90",
       },
       {
         textNomePlano: "PLANO OCEANO",
         textMegaPlano: "600MEGA",
-        imageApp: image3,
-        imageAlt: "Looker App",
         textApp: "App incluso",
         textValor: "129,90",
       },
@@ -51,11 +42,11 @@ export default defineComponent({
     <!--Web Version-->
     <div class="hidden md:block">
       <div
-        class="md:h-[400px] h-[1200px] flex flex-col md:gap-10 md:flex-row justify-center items-center md:py-8 pt-5"
+        class="md:h-[400px] flex flex-col md:gap-10 md:flex-row justify-center items-center md:py-8 pt-5"
       >
         <!--1º card-->
         <div
-          class="mt-24 flex flex-col text-center h-[450px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
+          class="mt-24 flex flex-col text-center h-[400px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
         >
           <p class="text-[10px] md:pt-5 pt-2 text-black">PLANO PÉ NA AREIA</p>
           <p class="text-4xl font-bold text-[#0168BC] md:py-1">100MEGA</p>
@@ -104,16 +95,7 @@ export default defineComponent({
               <p class="md:pl-1">WIFI Plus</p>
             </div>
           </div>
-          <div class="text-left">
-            <div class="flex justify-left pl-12 pt-4">
-              <img
-                src="../../../assets/Images/looke.webp"
-                alt="Looke app"
-                class="h-[40px]"
-              />
-              <p class="pt-[5px] pl-1">App incluso</p>
-            </div>
-          </div>
+
           <div class="flex justify-center md:pt-6 pt-2">
             <p class="text-xl font-bold pt-3">R$</p>
             <p class="text-4xl font-bold text-[#0168BC]">79,90</p>
@@ -135,7 +117,7 @@ export default defineComponent({
 
         <!--2º card-->
         <div
-          class="mt-24 flex flex-col text-center h-[450px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
+          class="mt-24 flex flex-col text-center h-[400px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
         >
           <p class="text-[10px] md:pt-5 pt-2 text-black">PLANO TÁ DANDO ONDA</p>
           <p class="text-4xl font-bold text-[#0168BC] md:py-1">300MEGA</p>
@@ -179,16 +161,7 @@ export default defineComponent({
               <p class="md:pl-1">WIFI Plus</p>
             </div>
           </div>
-          <div class="text-left">
-            <div class="flex justify-left pl-12 pt-4">
-              <img
-                src="../../../assets/Images/deezer.svg"
-                alt="Looke app"
-                class="h-[40px]"
-              />
-              <p class="pt-[5px] pl-1">App incluso</p>
-            </div>
-          </div>
+
           <div class="flex justify-center md:pt-6 pt-2">
             <p class="text-xl font-bold pt-3">R$</p>
             <p class="text-4xl font-bold text-[#0168BC]">109,90</p>
@@ -210,7 +183,7 @@ export default defineComponent({
 
         <!--3º card-->
         <div
-          class="mt-24 flex flex-col text-center h-[450px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
+          class="mt-24 flex flex-col text-center h-[400px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
         >
           <p class="text-[10px] md:pt-5 pt-2 text-black">PLANO OCEANO</p>
           <p class="text-4xl font-bold text-[#0168BC] md:py-1">600MEGA</p>
@@ -257,16 +230,6 @@ export default defineComponent({
               <p class="md:pl-1">WIFI Plus</p>
             </div>
           </div>
-          <div class="text-left">
-            <div class="flex justify-left pl-12 pt-4">
-              <img
-                src="../../../assets/Images/max.webp"
-                alt="Looke app"
-                class="h-[40px]"
-              />
-              <p class="pt-[5px] pl-1">App incluso</p>
-            </div>
-          </div>
           <div class="flex justify-center md:pt-6 pt-2">
             <p class="text-xl font-bold pt-3">R$</p>
             <p class="text-4xl font-bold text-[#0168BC]">129,90</p>
@@ -302,12 +265,12 @@ export default defineComponent({
       >
         <template #item="slotProps">
           <div
-            class="flex flex-col text-center h-[400px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
+            class="flex flex-col text-center h-[350px] w-[270px] md:mx-5 mt-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"
           >
-            <p class="text-[10px] md:pt-5 pt-2 text-black">
+            <p class="text-[10px] md:pt-5 pt-4 text-black">
               {{ slotProps.data.textNomePlano }}
             </p>
-            <p class="text-4xl font-bold text-[#0168BC] md:py-1">
+            <p class="text-4xl font-bold text-[#0168BC]">
               {{ slotProps.data.textMegaPlano }}
             </p>
             <div class="text-left">
@@ -355,17 +318,8 @@ export default defineComponent({
                 <p class="md:pl-1">WIFI Plus</p>
               </div>
             </div>
-            <div class="text-left">
-              <div class="flex justify-left pl-12 pt-4">
-                <img
-                  :src="slotProps.data.imageApp"
-                  :alt="slotProps.data.imageAlt"
-                  class="h-[40px]"
-                />
-                <p class="pt-[5px] pl-1">App incluso</p>
-              </div>
-            </div>
-            <div class="flex justify-center md:pt-6 pt-2">
+            
+            <div class="flex justify-center pt-2">
               <p class="text-xl font-bold pt-3">R$</p>
               <p class="text-4xl font-bold text-[#0168BC]">
                 {{ slotProps.data.textValor }}
