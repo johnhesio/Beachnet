@@ -12,6 +12,7 @@
       <a
         href="https://api.whatsapp.com/send/?phone=5585981674817&text&type=phone_number&app_absent=0"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <div
           class="hover:bg-[#0168bc] md:mt-5 group flex flex-col text-center md:h-[400px] h-[340px] w-[270px] md:mx-5 py-5 rounded-[25px] relative drop-shadow-md shadow-2xl border text-black"

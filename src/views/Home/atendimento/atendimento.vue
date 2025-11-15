@@ -96,7 +96,7 @@ export default defineComponent({
         </div>
         <div class="pt-8 flex justify-center">
           <div
-            class="w-[25%] h-[40px] bg-[#003366] rounded-full text-2xl text-center hover:bg-[#1EC2F1]"
+            class="w-[25%] h-[40px] bg-[#003366] rounded-full text-2xl text-center hover:bg-[#1EC2F1] ease-in-out duration-300 py-[3px]"
           >
             <a
               href="https://linktr.ee/beachnetmkt?fbclid=PAZXh0bgNhZW0CMTEAAaYtAHG4VvbfNv-goKcEsQykxSbvKgrDbtSRol-B7B-dLUubDP1HqSWnJNA_aem_dvIWia2HKS_ekFuHer_tmA"
