@@ -3,7 +3,7 @@ import Carousel from "primevue/carousel";
 import "primeicons/primeicons.css";
 import image1 from "../../../assets/Images/Card_Comercial.webp";
 import image2 from "../../../assets/Images/Card_Suporte.webp";
-import image3 from "../../../assets/Images/Card_Financeiro.webp";
+import image3 from "../../../assets/Images/Card_Financeiro.png";
 import { defineComponent } from "vue";
 export default defineComponent({
   name: "app",
