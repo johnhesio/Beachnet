@@ -1,7 +1,7 @@
 <script>
 import Carousel from "primevue/carousel";
 import "primeicons/primeicons.css";
-import image1 from "../../../assets/Images/Card_Indique_e_Ganhe.webp";
+import image1 from "../../../assets/Images/Card_Indique_e_Ganhe.png";
 import image2 from "../../../assets/Images/Card_instalacao_gratis.webp";
 import image3 from "../../../assets/Images/Card_melhor_assistencia.webp";
 import { defineComponent } from "vue";
