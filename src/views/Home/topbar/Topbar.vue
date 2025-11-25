@@ -24,9 +24,9 @@ export default defineComponent({
 </script>
 
 <template>
+  <div id="home"></div>
   <!-- Barra de Menu-->
   <div
-    id="home"
     class="fixed top-0 left-0 w-full bg-[#003366] text-white py-3.5 px-6 shadow md:flex justify-between items-center z-50"
   >
     <!-- Img da logo com link (para trocar o link alterar a linha "router-link")-->
@@ -53,7 +53,7 @@ export default defineComponent({
 
     <!-- Menu Mobile-->
     <ul
-      class=" bg-[#003366] md:flex md:items-center text-lg md:px-0 px-7 md:pb-0 md:static absolute md:w-auto w-[300px] duration-700 ease-in z-10"
+      class="bg-[#003366] md:flex md:items-center text-lg md:px-0 px-7 md:pb-0 md:static absolute md:w-auto w-[300px] duration-700 ease-in z-10"
       :class="[open ? 'left-0' : 'left-[-100%]']"
     >
       <li class="md:mx-2 md:my-0 my-6" v-for="link in links">

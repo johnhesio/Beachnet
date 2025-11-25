@@ -40,7 +40,7 @@ export default defineComponent({
     :transitionInterval="5000"
   >
     <template #item="slotProps">
-      <div class="w-full pt-[90px]" id="home">
+      <div class="w-full pt-[90px]">
         <!--para adicionar o link, basta trocar o link no href-->
         <a
           href="http://wa.me/5585981674817"
