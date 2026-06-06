@@ -19,7 +19,7 @@
       </div>
 
       <!-- Coluna do Texto -->
-      <div class="md:w-1/2 text-white space-y-6 bg-[#0168BC] w-full px-5">
+      <div class="md:w-1/2 text-white space-y-6 bg-[#0168BC] w-full px-5 pt-10 pb-10">
         <h2 class="text-4xl font-bold">
           Sobre <span class="text-yellow-400">nós</span>
         </h2>

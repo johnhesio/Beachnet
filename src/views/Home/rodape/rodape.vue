@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <footer class="bg-blue-900 text-white py-4">
+  <footer class="bg-blue-900 text-white pt-4">
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex flex-col md:flex-row md:justify-between items-center">
         <!-- Logo e navegação -->
@@ -45,6 +45,14 @@ export default {
         <div class="text-center md:text-left pt-5 md:pt-0">
           <h3 class="text-lg font-semibold">Central de Atendimento</h3>
           <p class="text-sm">+55 (85) 4042-9293</p>
+          <h3 class="text-lg font-semibold">Suporte - Whatsapp</h3>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5585982257397&text&type=phone_number&app_absent=0"
+            target="_blank"
+            class="text-sm hover:underline"
+          >
+            <p class="text-sm">+55 (85) 4042-9293</p>
+          </a>
           <hr class="bg-white my-3" />
           <p class="text-sm mt-1">Av. Zezé Diogo, 425 b - Cais do Porto</p>
           <p class="text-sm">Fortaleza - CE, 60180-005</p>
@@ -55,15 +63,28 @@ export default {
         >
           <h3 class="text-lg font-semibold mb-2">Redes sociais</h3>
           <div class="flex space-x-4">
-            <a href="https://www.facebook.com/beachnet.oficial?mibextid=ZbWKwL" class="hover:opacity-75" target="_blank">
+            <a
+              href="https://www.facebook.com/beachnet.oficial?mibextid=ZbWKwL"
+              class="hover:opacity-75"
+              target="_blank"
+            >
               <i class="pi pi-facebook" style="font-size: 2.5rem"></i>
             </a>
-            <a href="https://www.instagram.com/beachnet.oficial?igsh=MjNveG82a3lmcGxy" class="hover:opacity-75" target="_blank">
+            <a
+              href="https://www.instagram.com/beachnet.oficial?igsh=MjNveG82a3lmcGxy"
+              class="hover:opacity-75"
+              target="_blank"
+            >
               <i class="pi pi-instagram" style="font-size: 2.5rem"></i>
             </a>
           </div>
         </div>
       </div>
+    </div>
+    <div class="bg-[#003366] py-3 mt-5">
+      <p class="text-center text-sm">
+        &copy; BeachNet - 43.151.225/0001-51. Todos os direitos reservados.
+      </p>
     </div>
   </footer>
 </template>
