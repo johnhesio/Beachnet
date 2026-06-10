@@ -5,6 +5,7 @@ import image1 from "../../../assets/Images/Card_Comercial.webp";
 import image2 from "../../../assets/Images/Card_Suporte.webp";
 import image3 from "../../../assets/Images/Card_Financeiro.png";
 import { defineComponent } from "vue";
+
 export default defineComponent({
   name: "app",
   components: { Carousel },
@@ -32,6 +33,7 @@ export default defineComponent({
   },
 });
 </script>
+
 <template>
   <div id="contatos" class="md:h-[690px] bg-white flex flex-col">
     <h1
@@ -39,23 +41,39 @@ export default defineComponent({
     >
       Fale com a gente
     </h1>
-    <div class="flex justify-center text-center">
+    
+    <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-center mt-4 md:mt-8">
       <div
-        class="bg-gray-300 h-[80px] w-[330px] md:mt-8 mt-4 flex flex-col justify-center rounded-xl px-10 text-xl"
+        class="bg-gray-300 h-[80px] w-[330px] flex flex-col justify-center rounded-xl px-10 text-xl"
       >
         <div class="flex items-center">
           <i
             class="pi pi-phone px-1"
             style="color: black; font-size: 1.5rem"
           ></i>
-          <p class="text-black">Central de Atendimento</p>
+          <p class="text-black pl-2">Comercial</p>
         </div>
         <div>
-          <p class="text-black">+55 (85) 4042-9293</p>
+          <p class="text-black">+55 85 98167-4817</p>
+        </div>
+      </div>
+      
+      <div
+        class="bg-gray-300 h-[80px] w-[330px] flex flex-col justify-center rounded-xl px-10 text-xl"
+      >
+        <div class="flex items-center">
+          <i
+            class="pi pi-phone px-1"
+            style="color: black; font-size: 1.5rem"
+          ></i>
+          <p class="text-black pl-2">Suporte</p>
+        </div>
+        <div>
+          <p class="text-black">+55 85 98225-7397</p>
         </div>
       </div>
     </div>
-    <!--web-->
+
     <div class="hidden md:block">
       <div class="flex flex-col justify-center mt-8">
         <div class="flex justify-center">
@@ -107,10 +125,9 @@ export default defineComponent({
         </div>
       </div>
     </div>
-    <!--mobile-->
+    
     <div class="md:hidden">
       <Carousel
-        Carousel
         :value="links"
         :numVisible="1"
         :numScroll="1"
@@ -144,4 +161,5 @@ export default defineComponent({
     </div>
   </div>
 </template>
+
 <style></style>
