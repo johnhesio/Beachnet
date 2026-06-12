@@ -12,7 +12,7 @@
       <!-- Coluna da Imagem -->
       <div class="relative md:w-1/2">
         <img
-          src="../../../assets/Images/Sobre_nos_equipe.png"
+          src="../../../assets/Images/imgi_18_Sobre_nos_equipe-JTZl_ZEo.png"
           alt="Equipe"
           class="rounded-3xl w-full object-cover md:block hidden"
         />

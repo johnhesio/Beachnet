@@ -43,15 +43,21 @@ export default {
 
         <!-- Informações de contato -->
         <div class="text-center md:text-left pt-5 md:pt-0">
-          <h3 class="text-lg font-semibold">Central de Atendimento</h3>
-          <p class="text-sm">+55 (85) 4042-9293</p>
+          <h3 class="text-lg font-semibold">Comercial</h3>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5585981674817&text&type=phone_number&app_absent=0"
+            target="_blank"
+            class="text-sm hover:underline"
+          >
+            <p class="text-sm">+55 (85) 98167-4817</p>
+          </a>
           <h3 class="text-lg font-semibold">Suporte - Whatsapp</h3>
           <a
             href="https://api.whatsapp.com/send/?phone=5585982257397&text&type=phone_number&app_absent=0"
             target="_blank"
             class="text-sm hover:underline"
           >
-            <p class="text-sm">85 98225-739785 98225-7397</p>
+            <p class="text-sm">+55 (85) 98225-7397</p>
           </a>
           <hr class="bg-white my-3" />
           <p class="text-sm mt-1">Av. Zezé Diogo, 425 b - Cais do Porto</p>
