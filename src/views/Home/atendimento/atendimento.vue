@@ -41,8 +41,10 @@ export default defineComponent({
     >
       Fale com a gente
     </h1>
-    
-    <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-center mt-4 md:mt-8">
+
+    <div
+      class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8 text-center mt-4 md:mt-8"
+    >
       <div
         class="bg-gray-300 h-[80px] w-[330px] flex flex-col justify-center rounded-xl px-10 text-xl"
       >
@@ -57,7 +59,7 @@ export default defineComponent({
           <p class="text-black">+55 85 98167-4817</p>
         </div>
       </div>
-      
+
       <div
         class="bg-gray-300 h-[80px] w-[330px] flex flex-col justify-center rounded-xl px-10 text-xl"
       >
@@ -125,7 +127,7 @@ export default defineComponent({
         </div>
       </div>
     </div>
-    
+
     <div class="md:hidden">
       <Carousel
         :value="links"
