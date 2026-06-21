@@ -60,8 +60,7 @@ export default {
             <p class="text-sm">+55 85 98225-7397</p>
           </a>
           <hr class="bg-white my-3" />
-          <p class="text-sm mt-1">Av. Zezé Diogo, 425 b - Cais do Porto</p>
-          <p class="text-sm">Fortaleza - CE, 60180-005</p>
+          <p class="text-sm mt-1">Av. Zezé Diogo, 691 - Cais do Porto, Fortaleza - CE, 60180-005</p>
         </div>
         <!-- Redes sociais -->
         <div
